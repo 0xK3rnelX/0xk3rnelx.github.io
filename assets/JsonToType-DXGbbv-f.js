@@ -1,0 +1,15 @@
+import{n as h,t as N}from"./jsx-runtime-Cnvf1OyM.js";import{t as O}from"./CopyButton-B5byMfsO.js";import{t as S}from"./ErrorMessage-DgwtQ05t.js";import{t as b}from"./TextArea-cZvP2ZsF.js";var c=h(),t=N();function C(){const[p,x]=(0,c.useState)(`{
+  "id": 1,
+  "username": "0xk3rnelx",
+  "isActive": true
+}`),[d,f]=(0,c.useState)(""),[m,y]=(0,c.useState)(null),[a,u]=(0,c.useState)("typescript"),i=r=>r===null?"any":Array.isArray(r)?r.length===0?"any[]":`${i(r[0])}[]`:typeof r=="object"?"nested_object":typeof r,j=()=>{try{if(y(null),!p.trim())return f("");const r=JSON.parse(p);let s="";a==="typescript"?(s+=`export interface RootObject {
+`,Object.entries(r).forEach(([n,o])=>{let e=i(o);e==="nested_object"&&(e="Record<string, any>"),s+=`  ${n}: ${e};
+`}),s+="}"):a==="python"?(s+=`from dataclasses import dataclass
+from typing import Any, List
+
+@dataclass
+class RootObject:
+`,Object.entries(r).forEach(([n,o])=>{let e=i(o);e.includes("[]")&&(e=`List[${e.replace("[]","").replace("number","float").replace("string","str").replace("boolean","bool")}]`),e==="number"&&(e="float"),e==="string"&&(e="str"),e==="boolean"&&(e="bool"),e==="nested_object"&&(e="Any"),s+=`    ${n}: ${e}
+`})):a==="go"&&(s+=`type RootObject struct {
+`,Object.entries(r).forEach(([n,o])=>{let e=i(o),l="interface{}";e==="number"&&(l="float64"),e==="string"&&(l="string"),e==="boolean"&&(l="bool"),e.includes("[]")&&(l=`[]${e.replace("[]","").replace("number","float64").replace("string","string").replace("boolean","bool")}`);const g=n.charAt(0).toUpperCase()+n.slice(1);s+=`  ${g} ${l} \`json:"${n}"\`
+`}),s+="}"),f(s)}catch(r){y("Invalid JSON input: "+r.message)}};return(0,t.jsxs)("div",{className:"tool-section",children:[(0,t.jsxs)("div",{className:"tool-header",children:[(0,t.jsx)("h2",{className:"tool-title",children:"JSON → Type Generator"}),(0,t.jsx)("p",{className:"tool-description",children:"Infer structural interfaces and classes directly from JSON payload."})]}),m&&(0,t.jsx)(S,{message:m}),(0,t.jsxs)("div",{className:"flex gap-4 mb-6",children:[(0,t.jsx)("button",{className:a==="typescript"?"btn-primary":"btn-secondary",onClick:()=>u("typescript"),children:"TypeScript"}),(0,t.jsx)("button",{className:a==="python"?"btn-primary":"btn-secondary",onClick:()=>u("python"),children:"Python (Dataclass)"}),(0,t.jsx)("button",{className:a==="go"?"btn-primary":"btn-secondary",onClick:()=>u("go"),children:"Go Structs"}),(0,t.jsx)("button",{className:"btn-primary ml-auto",onClick:j,children:"Generate Structure"})]}),(0,t.jsxs)("div",{className:"grid grid-cols-1 lg:grid-cols-2 gap-6",children:[(0,t.jsxs)("div",{className:"flex flex-col gap-2 relative",children:[(0,t.jsx)("label",{className:"field-label",children:"JSON Payload"}),(0,t.jsx)(b,{value:p,onChange:r=>x(r.target.value),rows:14})]}),(0,t.jsxs)("div",{className:"flex flex-col gap-2 relative",children:[(0,t.jsx)("label",{className:"field-label",children:"Output Definition"}),(0,t.jsx)(b,{value:d,readOnly:!0,rows:14,className:"input-base bg-[#0e0e0e] text-primary-container font-mono"}),(0,t.jsx)("div",{className:"absolute top-0 right-0",children:(0,t.jsx)(O,{text:d})})]})]})]})}export{C as default};
