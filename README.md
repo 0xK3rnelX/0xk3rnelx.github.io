@@ -1,108 +1,121 @@
-# 0Xk3rnelx 
+# 0xK3rnelX
 
 <p align="center">
-  <img src="banner.png" alt="0Xk3rnelx Banner Logo" width="100%">
+  <img src="banner.png" alt="0xK3rnelX Banner Logo" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/0Xk3rnelx"><img src="https://img.shields.io/badge/Status-Active%20Operations-ff0055?style=for-the-badge&logo=github&logoColor=white" alt="Status"/></a>
-  <a href="https://github.com/0Xk3rnelx"><img src="https://img.shields.io/badge/Focus-Taboo%20Fiction%20%26%20Espionage-9d4edd?style=for-the-badge&logo=gitbook&logoColor=white" alt="Focus"/></a>
-  <a href="https://github.com/0Xk3rnelx"><img src="https://img.shields.io/badge/Theme-Dark%20Espionage%20%26%20Erotica-240046?style=for-the-badge" alt="Theme"/></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&width=600&height=50&lines=Offensive+Security;Threat+Intelligence;Red+Team+Research;Malware+Analysis;Python+Automation;Security+Tool+Development" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <strong>Cybersecurity Researcher | Offensive Security | Threat Intelligence | Python Developer</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/0xK3rnelX"><img src="https://komarev.com/ghpvc/?username=0xK3rnelX&color=00f5d4&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/></a>
+  <a href="https://github.com/0xK3rnelX"><img src="https://img.shields.io/github/followers/0xK3rnelX?color=9d4edd&label=FOLLOWERS&style=for-the-badge" alt="Followers"/></a>
+  <a href="https://github.com/0xK3rnelX"><img src="https://img.shields.io/github/stars-of-user/0xK3rnelX?color=240046&label=STARS&style=for-the-badge" alt="Stars"/></a>
 </p>
 
 ---
 
-### 🌐 Welcome to the Command Deck
+### 📂 About
 
-> *"Code is fiction until it executes. A screenplay for a heist contains instructions for bank robbery—meticulous, technically accurate, potentially usable. A forensic pathology textbook teaches you exactly how to poison someone undetectably. Both sit on library shelves, protected as art and science. When we treat code as inherently more dangerous than other forms of narrative, we fear the unfamiliar."*
+I am a cybersecurity researcher focusing on offensive security, threat intelligence, and red team automation. My repository is intentionally curated; I prioritize high-quality, fully realized research and tooling over a high volume of incomplete repositories.
 
-I am **0Xk3rnelx**—an Adult Erotica Author specializing in taboo genres, cyber-espionage thrillers, and dark, meticulous fiction. I weave technical accuracy with raw, visceral storytelling, designing narratives where code and human desire intersect at their most forbidden points.
-
----
-
-### 🕵️‍♂️ Current Intel & Active Drafts
-
-Below is the registry of active operations, stories, and scripts currently under development:
-
-| Operation / Codename | Classification | Phase / Status | Briefing / Summary |
-| :--- | :--- | :--- | :--- |
-| **Project Silk-Tie** | `Taboo / Erotica` | `Meticulous Drafting` | A multi-layered psychological drama exploring boundary-pushing arrangements in high-security corporate offices. |
-| **Operation Ghost-Hand** | `Spy Novel / Cyber` | `Code Injection Phase` | A thriller featuring custom-written automation scripts, payload simulators, and forensic bypasses embedded in the text. |
-| **Project Black-Book** | `Dark Thriller` | `Outline Complete` | A narrative ledger of classified files, private transcripts, and redacted confessions. |
+* **Primary Areas of Focus:**
+  * 🔴 **Offensive Security** – Researching modern attack vectors and vulnerability vectors.
+  * 👁️ **Threat Intelligence** – Analyzing adversary tactics, techniques, and procedures (TTPs).
+  * 🎯 **Red Team Research** – Emulating real-world threats to improve defensive postures.
+  * 🔬 **Malware Analysis** – Dissecting malicious payloads to understand behavior and detection bypasses.
+  * ⚙️ **Python Automation** – Building robust, script-driven intelligence gathering platforms.
+  * 🛡️ **Security Tool Development** – Developing utilities to assist in authorized penetration testing.
 
 ---
 
-### 💻 Espionage Deck & Fictional Payloads
+### 🏆 Featured Project
 
-In my stories, characters use realistic, technically accurate scripts to achieve their objectives. Here is a sample deck from my upcoming spy novel—designed as a realistic payload delivery mechanism used by operatives:
+<p align="center">
+  <strong>Droff</strong> — <em>C2 Intelligence Framework</em>
+</p>
 
-```python
-# ==============================================================================
-# OPERATION: GHOST-HAND
-# CLASSIFICATION: CONFIDENTIAL // EYES ONLY
-# PURPOSE: Secure memory dump and local configuration extraction
-# ==============================================================================
+An intelligence-focused command-and-control research framework built for authorized security research and defensive testing. 
 
-import os
-import sys
-import json
-import base64
+| Feature | Details |
+| :--- | :--- |
+| **Threat Intelligence** | Focused on simulating real-world adversary operational tactics. |
+| **Agent Communication** | Implements custom, covert data exchange protocols between node assets. |
+| **Modular Architecture** | Highly extensible framework allowing custom post-exploitation modules. |
+| **Python Powered** | Written natively in Python for clean execution and quick modification. |
+| **Cross Platform** | Support for cross-operating system emulation during audits. |
+| **Status** | Under active development and research. |
 
-class EspionageDeck:
-    def __init__(self, target_directory):
-        self.target = target_directory
-        self.payload_manifest = {}
-        
-    def scan_secure_archives(self):
-        """Scans directories for configuration files containing keys and endpoints."""
-        target_extensions = ['.conf', '.json', '.yaml', '.key']
-        for root, dirs, files in os.walk(self.target):
-            for file in files:
-                if any(file.endswith(ext) for ext in target_extensions):
-                    path = os.path.join(root, file)
-                    self.payload_manifest[file] = self._read_and_encode(path)
-                    
-    def _read_and_encode(self, file_path):
-        """Reads file content securely and base64 encodes it for transport."""
-        try:
-            with open(file_path, 'rb') as f:
-                content = f.read()
-                return base64.b64encode(content).decode('utf-8')
-        except Exception:
-            return "ACCESS_DENIED"
+<p align="center">
+  <a href="https://github.com/0xK3rnelX/droff">
+    <img src="https://img.shields.io/badge/Repository-Droff-00f5d4?style=for-the-badge&logo=github&logoColor=black" alt="Droff Repository" />
+  </a>
+</p>
 
-    def export_telemetry(self, output_file):
-        """Exports the gathered telemetry to a disguised log file."""
-        output_data = {
-            "status": "system_idle",
-            "telemetry_data": self.payload_manifest
-        }
-        with open(output_file, 'w') as f:
-            json.dump(output_data, f, indent=4)
+---
 
-if __name__ == "__main__":
-    deck = EspionageDeck(os.getcwd())
-    deck.scan_secure_archives()
-    deck.export_telemetry("system_diag.log")
+### 💻 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+---
+
+### 📡 Current Focus
+
+```text
+> Researching C2 infrastructure
+> Building Droff
+> Threat Intelligence
+> Malware Research
+> Python Automation
 ```
 
 ---
 
-### 📖 The Writing Philosophy
+### 🟢 Status
 
-My scenes are crafted with a mix of **Brandon Sanderson’s** meticulous world-building, the dark, transgressive exploration of the **Marquis de Sade**, and the gritty, uncompromising realism of **Joe Abercrombie**. 
+* **Availability:** Active Daily
+* **Focus Area:** Security Research
+* **Development:** Open Source Tools & Custom Frameworks
+* **Intelligence:** Threat Analysis & TTP Mapping
 
-Every collaborative story in my portfolio is written with:
-* **Hyper-Detailed Scenes:** No glossed-over details. Action, emotion, and technical elements are fully realized.
-* **Realistic NPCs:** Every character operates under their own logical motives, knowledge, and internal conflicts.
-* **Visceral Prose:** Gritty, raw, and direct terminology that fits the heavy, taboo nature of the work.
+---
+
+### 📊 Git Metrics & Diagnostics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=0xK3rnelX&show_icons=true&bg_color=09090b&title_color=00f5d4&text_color=c9d1d9&icon_color=9d4edd&accent_color=00f5d4&border_color=240046&hide_border=false" alt="0xK3rnelX GitHub Stats" width="48%">
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xK3rnelX&layout=compact&bg_color=09090b&title_color=00f5d4&text_color=c9d1d9&icon_color=9d4edd&accent_color=00f5d4&border_color=240046&hide_border=false" alt="0xK3rnelX Top Languages" width="48%">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0xK3rnelX&theme=tokyonight&background=09090b&ring=00f5d4&fire=ff0055&currStreakNum=00f5d4&sideNums=9d4edd&sideLabels=c9d1d9&dates=c9d1d9" alt="0xK3rnelX Contribution Streak" width="98%">
+</p>
 
 ---
 
 ### 📬 Secure Channels
 
-For collaboration, story discussions, or secure inquiries, reach out through the following channels:
+* **Secure Email:** `trexBlde@proton.me`
+* **Website Portfolio:** [0xk3rnelx.github.io](https://github.com/0xk3rnelx/0xk3rnelx.github.io)
 
-* **Secure Email:** `kernelx@proton.me` (Disguised & Encrypted)
-* **GitHub Repository:** [0xk3rnelx.github.io](https://github.com/0xk3rnelx/0xk3rnelx.github.io)
-* **Status Log:** Active daily.
+---
+
+```text
+> Building intelligence-driven security tools.
+> Research. Learn. Improve.
+```
