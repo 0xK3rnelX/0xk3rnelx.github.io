@@ -1,13 +1,8 @@
 <div align="center">
 
-```
-  ██████╗ ██╗  ██╗██████╗ ███╗   ██╗███████╗██╗     ██╗  ██╗
- ██╔═████╗╚██╗██╔╝██╔══██╗████╗  ██║██╔════╝██║     ╚██╗██╔╝
- ██║██╔██║ ╚███╔╝ ██████╔╝██╔██╗ ██║█████╗  ██║      ╚███╔╝ 
- ████╔╝██║ ██╔██╗ ██╔══██╗██║╚██╗██║██╔══╝  ██║      ██╔██╗ 
- ╚██████╔╝██╔╝ ██╗██║  ██║██║ ╚████║███████╗███████╗██╔╝ ██╗
-  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝  ╚═╝
-```
+<img src="./assets/banner.gif" alt="0XK3RNELX Terminal Banner" width="100%" />
+
+<br/><br/>
 
 ### ⚡ OFFENSIVE SECURITY RESEARCHER &bull; CEH &bull; EXPLOIT DEVELOPER ⚡
 
@@ -31,6 +26,7 @@ I am **0XK3RNELX**, an offensive security practitioner, Certified Ethical Hacker
 - **Primary Focus**: Weaponized C2 infrastructure, EDR evasion mechanics, distributed offensive automation.
 - **Operating Enclaves**: Windows internals (Win32 API, Active Directory) & Hardened Linux kernels.
 - **Protocols & Egress**: Covert DNS tunneling, mTLS listeners, HTTP/2 multiplexing, raw socket crafting.
+- **Core Arsenal**: Python (AsyncIO), Go, JavaScript, React, HTML5, CSS3.
 
 ---
 
@@ -73,6 +69,7 @@ I am **0XK3RNELX**, an offensive security practitioner, Certified Ethical Hacker
 > **Status:** `RESTRICTED RESEARCH // PRIVATE REPOSITORY`  
 > **Target:** Host Orchestration & Covert Staging
 
+- Modular data collection, geolocation, and visualization platform for security research.
 - Engineered for distributed multi-node agent staging and asynchronous beacon ingestion.
 - Built-in traffic shaping, modular encrypted fallback listeners, and evasive sleep-masking algorithms.
 - Custom listener architecture designed to bypass signature-based heuristic defenses.
@@ -113,7 +110,6 @@ Visitors can access an in-browser command console on my live portfolio:
 0xk3rnelx@c2-node:~$ cat flag
 CTF{0xK3RN3L_R00T_C2_K3RN3L_0V3RL0RD_2026}
 ```
-
 
 ---
 
