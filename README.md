@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".assets/banner.gif" alt="0XK3RNELX Terminal Banner" width="100%" />
+<img src="./assets/banner.gif" alt="0XK3RNELX Terminal Banner" width="100%" />
 
 <br/><br/>
 
@@ -34,13 +34,21 @@ I am **0XK3RNELX**, an offensive security practitioner, Certified Ethical Hacker
 
 <div align="center">
 
-| Domain | Weaponry & Stack |
+| Domain | Weaponry & Stack (Tactical Arsenal) |
 | :--- | :--- |
-| **Offensive Tooling & Engines** | `Python (AsyncIO)` &bull; `Go (Golang Concurrency)` &bull; `C/C++ Internals` |
-| **Exploitation & Operations** | `CEH v12 Methodologies` &bull; `Red Team Operations` &bull; `Adversary Emulation` |
-| **Distributed Networks & C2** | `mTLS Listeners` &bull; `Raw Sockets` &bull; `DNS/HTTP2 Covert Channels` &bull; `Proxy Meshes` |
-| **Tactical Frontends** | `React` &bull; `Vanilla JavaScript (ESNext)` &bull; `HTML5/CSS3 HUD Architectures` |
-| **Operating Environments** | `Linux (Debian/Arch/Hardened Kernels)` &bull; `Windows (AD Forests, API Injection)` |
+| **Offensive Tooling & Core Languages** | [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org) [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org) [![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language)) [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org) |
+| **Tactical Frontends & Dashboards** | [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org) [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org) |
+| **Exploitation & Operations** | [![CEH](https://img.shields.io/badge/CEH%20v12-Certified%20Ethical%20Hacker-00ff66?style=for-the-badge&logo=hackthebox&logoColor=black)](https://eccouncil.org) [![Red Team](https://img.shields.io/badge/Ops-Red%20Teaming-ff3366?style=for-the-badge&logo=kalilinux&logoColor=white)](https://kali.org) [![Adversary Emulation](https://img.shields.io/badge/Adversary-Emulation-ffb703?style=for-the-badge&logo=target&logoColor=black)](https://attack.mitre.org) |
+| **Distributed Networks & C2** | [![Sockets](https://img.shields.io/badge/Protocols-Raw%20Sockets-00e5ff?style=for-the-badge&logo=wireshark&logoColor=white)](https://wireshark.org) [![mTLS](https://img.shields.io/badge/Egress-mTLS%20%2F%20DNS%20Tunneling-00ff66?style=for-the-badge&logo=cloudflare&logoColor=black)](https://0xk3rnelx.github.io) [![Proxy Mesh](https://img.shields.io/badge/Proxy-Tor%20%2F%20Mesh%20Routing-7D4698?style=for-the-badge&logo=torproject&logoColor=white)](https://torproject.org) |
+| **Operating Environments** | [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org) [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com/windows) [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com) [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://archlinux.org) |
+
+<br/>
+
+### ⚡ LANGUAGE & TOOLING TELEMETRY ⚡
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,go,c,cpp,js,react,html,css,linux,windows,docker,bash,git,github" alt="0xK3rnelX Arsenal Icons" />
+</p>
 
 </div>
 
