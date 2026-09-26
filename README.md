@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.gif" alt="0XK3RNELX Terminal Banner" width="100%" />
+<img src=".assets/banner.gif" alt="0XK3RNELX Terminal Banner" width="100%" />
 
 <br/><br/>
 
